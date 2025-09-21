@@ -1,6 +1,6 @@
 'use client'
 
-import { MotionValue, motion, useTransform } from 'framer-motion'
+import { MotionValue, motion, useTransform } from 'motion/react'
 
 const ScrollHint = ({ scrollYProgress }: { scrollYProgress: MotionValue<number> }) => {
     const opacity = useTransform(scrollYProgress, [0, 1], [1, 0])

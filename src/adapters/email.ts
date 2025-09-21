@@ -23,8 +23,7 @@ transporter.verify((error, success) => {
 
 export const emailAdapter = nodemailerAdapter({
   //defaultFromAddress: 'paww91@gmail.com',
-  defaultFromAddress: 'zamowienia@slodkapetelka.pl',
+  defaultFromAddress: 'zamowienia@slodkapetelka.pl', 
   defaultFromName: 'Słodka Pętelka formularz',
   transport: transporter,
 })
-

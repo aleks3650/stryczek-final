@@ -19,7 +19,7 @@ export default async function HomePage() {
       </div>
       <AboutSection />
       <CombinedSection />
-      {/* <OpinionsSection /> */}
+      <OpinionsSection />
       <ScrollToTop />
       <PopupSection />
     </>

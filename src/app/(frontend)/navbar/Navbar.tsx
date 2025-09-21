@@ -20,7 +20,7 @@ const Navbar = () => {
     url: '/galery'
   },
   {
-    name: 'Kontant',
+    name: 'Kontakt',
     url: '/contact'
   },]
   return (

@@ -30,7 +30,7 @@ const HeroImage = () => {
   }
 
   return (
-    <div className={containerClasses}> 
+    <div className={containerClasses}>
       <AnimatedImage
         imageData={imageData}
         className={imageClasses}
